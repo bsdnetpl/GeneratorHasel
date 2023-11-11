@@ -12,8 +12,8 @@ namespace GeneratorHasel
         private string[] alphabet = { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "R", "S", "T", "U", "W", "Y", "Z" };
         private string[] alphabetLitle = { "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "r", "s", "t", "u", "w", "y", "z" };
         private string[] alphabetNumeric= { "1", "2", "3", "4", "5", "6", "7", "8", "9", "0" };
-        private string[] alphabetSpecial = { "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "=", "+" };
-		private string[] alphabetSpecial2 = { "{", "}", "[", "]", ";", ":", "'", "<", ">", ",", ".", "/", "?" };
+        private string[] alphabetSpecial = { "!", "@", "#", "$", "%", "&", "*", "(", ")", "-", "=", "+" };
+		private string[] alphabetSpecial2 = { "{", "}", "[", "]", "<", ">", "/", "?" };
 		private string result;
         Random rnd = new Random();
         public string GeneratePassword(int LongPassword)
