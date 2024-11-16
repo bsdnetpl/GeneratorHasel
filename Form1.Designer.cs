@@ -37,11 +37,12 @@
             this.label2 = new System.Windows.Forms.Label();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(8, 137);
+            this.button1.Location = new System.Drawing.Point(8, 162);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(149, 36);
             this.button1.TabIndex = 0;
@@ -80,7 +81,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(12, 111);
+            this.textBox2.Location = new System.Drawing.Point(8, 136);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(145, 20);
             this.textBox2.TabIndex = 4;
@@ -89,7 +90,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(20, 95);
+            this.label2.Location = new System.Drawing.Point(20, 120);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(124, 13);
             this.label2.TabIndex = 5;
@@ -116,11 +117,22 @@
             this.comboBox1.Text = "128 bity = 18 znaków";
             this.comboBox1.Visible = false;
             // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(31, 98);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(81, 17);
+            this.checkBox3.TabIndex = 8;
+            this.checkBox3.Text = "Litery i cyfry";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(169, 185);
+            this.ClientSize = new System.Drawing.Size(169, 210);
+            this.Controls.Add(this.checkBox3);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.label2);
@@ -135,7 +147,7 @@
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Generator  1.02";
+            this.Text = "Generator  1.05";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -151,6 +163,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.ComboBox comboBox1;
-    }
+        private System.Windows.Forms.CheckBox checkBox3;
+        }
 }
 
